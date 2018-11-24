@@ -16,3 +16,8 @@ html {
     max-width: 1140px;
     margin: 0 auto;
 }
+
+header {
+    background-image: url(assets/hero.jpg);
+    height: 10vh;
+}
