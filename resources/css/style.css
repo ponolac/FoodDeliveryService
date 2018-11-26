@@ -43,7 +43,8 @@ h1 {
     word-spacing: 4px;
 }
 
-.btn {
+.btn:link,
+.btn:visited {
     display: inline-block; /* like an inline element but with padding and margin */
     padding: 10px 30px; /* 10px top & bottom, 30px left & right */
     font-weight: 300;
@@ -51,14 +52,38 @@ h1 {
     border-radius: 200px;
 }
 
-.btn-full {
+.btn-full:link,
+.btn-full:visited {
     background-color: #e67e22;
     border: 1px solid #e67e22;
     color: #fff;
-)
+}
 
-.btn-ghost {
+.btn-ghost:link,
+.btn-ghost:visited {
     border: 1px solid #e67e22;
     color: #e67e22;
 }
 
+.btn:hover,
+.btn:active {
+    background-color: #cf6d17;
+}
+
+.btn-full:hover,
+.btn-full:visited {
+    background-color: #e67e22;
+    border: 1px solid #e67e22;
+    color: #fff;
+}
+
+.btn-full:hover,
+.btn-full:active {
+    border: 1px solid #e67e22;
+}
+
+.btn-ghost:hover,
+.btn-ghost:active {
+    border: 1px solid #e67e22;
+    color: #fff;
+}
