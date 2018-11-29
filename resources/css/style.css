@@ -18,8 +18,8 @@ html {
     text-rendering: optimizeLegibility;
 }
 
-.clearfix {zoom: 1}       /* This class will clear a float after an element */
-.clearfix:after {
+clearfix {zoom: 1}       
+clearfix:after {       /* This class will clear a float after an element */
     content: '.';
     clear: both;
     display: block;
@@ -36,7 +36,7 @@ html {
     margin: 0 auto;
 }
 
-section {
+.section {
     padding: 80px 0px;
 }
 
