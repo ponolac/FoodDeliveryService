@@ -18,8 +18,8 @@ html {
     text-rendering: optimizeLegibility;
 }
 
-clearfix {zoom: 1}       
-clearfix:after {       /* This class will clear a float after an element */
+.clearfix {zoom: 1} 
+.clearfix:after {             /* This class will clear a float after an element */     
     content: '.';
     clear: both;
     display: block;
@@ -103,6 +103,20 @@ h2:after {
     display: block;
     color: #e67e22;
     margin-bottom: 10px;
+}
+
+.icon-small {
+    display: inline-block;
+    width: 30px;
+    text-align: center;
+    color: #e67e22;
+    font-size: 120%;
+    margin-right: 10px;
+
+    /* techniques to align text and icons */
+    line-height: 120%;
+    vertical-align: middle;
+    margin-top: -5px;
 }
 
 /* --- BUTTONS --- */
@@ -289,7 +303,7 @@ header {
 .works-step div {
     color: #e67e22;
     border: 2px solid #e67e22;
-    display: inline-block;
+    display: inline-block;           
     border-radius: 50%;
     height: 55px;
     width: 55px;
@@ -305,3 +319,18 @@ header {
     width: auto;
     margin-right: 10px;
 }
+
+/* ------------------------------------------- */
+/* CITIES */
+/* ------------------------------------------- */
+
+.box img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.city-feature {
+    margin-bottom: 5px;
+}
+
