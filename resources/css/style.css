@@ -19,13 +19,13 @@ html {
 }
 
 .clearfix {zoom: 1} 
-.clearfix:after {             /* This class will clear a float after an element */     
-    content: '.';
+   .clearfix:after {            /* This class will clear a float after an element     */
+    content: '...';
     clear: both;
     display: block;
     height: 0;
     visibility: hidden;
-}
+ }
 
 /* ------------------------------------------- */
 /* REUSABLE COMPONENTS */
@@ -192,7 +192,7 @@ a:active {
 /* ------------------------------------------- */
 
 header {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../img/hero.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("img/hero.jpg");
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -288,12 +288,17 @@ header {
     opacity: 1; /* 100% */
 }
 
+ul.meals-showcase.clearfix {
+    margin-bottom: -20px;
+}
+
 /* ------------------------------------------- */
 /* HOW IT WORKS */
 /* ------------------------------------------- */
 
 .section-steps {
     background-color: #f4f4f4;
+    margin-top: 20px;
 }
 
 .steps-box:first-child {
@@ -304,7 +309,6 @@ header {
 
 .steps-box:last-child {
     padding-left: 3%;
-    margin-top: 70px;
 }
 
 .app-screen {
@@ -356,5 +360,15 @@ header {
 
 .city-feature {
     margin-bottom: 5px;
+}
+
+/* ------------------------------------------- */
+/* TESTIMONIALS */
+/* ------------------------------------------- */
+
+.section-testimonials {
+    background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url(img/back-customers.jpg);
+    background-size: cover;
+    color: #fff;
 }
 
