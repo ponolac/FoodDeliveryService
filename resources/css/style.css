@@ -213,15 +213,20 @@ header {
             transform: translate(-50%, -50%);
 }
 
-.logo,
-.logo-black {
+.logo {
     height: 100px;
     width: auto;
     float: left;
     margin-top: 20px;
 }
 
-.logo-black { display: none; }
+.logo-black { 
+    display: none;
+    height: 50px;
+    width: auto;
+    float: left;
+    margin-top: 5px;
+}
 
 /* Main navi */
 
