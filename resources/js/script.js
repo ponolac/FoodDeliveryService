@@ -1,6 +1,10 @@
 $(document).ready(function() {
 
-    $('.js--section-features')
+    $('h1').click(function() {
+        $(this).css('background-color', '#ff0000');
+    })
+
+    // $('.js--section-features')
 
 
     // var waypoints = $('#handler-first').waypoint(function(direction) {
@@ -9,7 +13,4 @@ $(document).ready(function() {
     //     offset: '25%'
     //   })
       
-      
-
-
 });
